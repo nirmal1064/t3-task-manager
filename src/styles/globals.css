@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+    @apply m-0 p-0 box-border
+}
+
+.dark {
+    @apply bg-neutral-800 text-neutral-100
+}
